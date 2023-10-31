@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Char_Add32 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter a Capital Char: ");
+		char a = new Scanner(System.in).next().charAt(0);
+		int b = a + 32;
+		System.out.println("Answer is : "+b);
+
+	}
+
+}
